@@ -53,6 +53,7 @@
 
 .game__line-2:hover + .game__line-3,
 .game__line-3:hover{
+   
 	visibility: visible;
 }
 
@@ -71,14 +72,22 @@
 .game__line-img{
    width: 50px;
    height: 80px;
+   
 
 }
 
-.game__line-3:hover + .game__line-4,
+.game__line-3:hover + .game__line-4
+{
+ visibility: visible;
+}
 .game__line-4:hover{
-	visibility: visible;
+visibility: visible;
+padding: 20px;
+width: 230px;
+height: 130px;
+text-align: center;
+box-shadow: 0 0 40px 2px #fff;
 }
-
 .game__line-5{
    width: 30px;
 	height: 100px;
@@ -118,9 +127,17 @@
    visibility: hidden;
 }
 
-.game__line-6:hover+.game__line-7,
-.game__line-7:hover{
+.game__line-6:hover+.game__line-7
+{
    visibility: visible;
+}
+.game__line-7:hover{
+visibility: visible;
+padding: 20px;
+width: 230px;
+height: 130px;
+text-align: center;
+box-shadow: 0 0 40px 2px #fff;
 }
 
 .game__line-8{
@@ -147,10 +164,20 @@
    visibility: hidden;
 }
 
-.game__line-8:hover+.game__line-9,
-.game__line-9:hover{
+.game__line-8:hover+.game__line-9
+{
    visibility: visible;
 }
+
+.game__line-9:hover{
+visibility: visible;
+padding: 20px;
+width: 230px;
+height: 130px;
+text-align: center;
+box-shadow: 0 0 40px 2px #fff;
+}
+
 
 .game__line-10{
    width: 30px;
@@ -192,9 +219,18 @@
 	background:red;
    visibility: hidden;
 }
-.game__line-11:hover+.game__line-12,
-.game__line-12:hover{
+.game__line-11:hover+.game__line-12
+{
    visibility: visible;
+}
+
+.game__line-12:hover{
+visibility: visible;
+padding: 20px;
+width: 230px;
+height: 130px;
+text-align: center;
+box-shadow: 0 0 40px 2px #fff;
 }
 
 .game__line-13{
@@ -235,6 +271,12 @@
    visibility: visible;
 }
 
+
+.game__line-14:hover{
+   visibility: visible;
+   text-align: center;
+box-shadow: 0 0 40px 2px #fff;
+}
 .footer{
    font-size: 30px;
    font-weight: 900;
